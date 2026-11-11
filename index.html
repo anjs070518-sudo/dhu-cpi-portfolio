@@ -1,0 +1,177 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>대구한의대학교 · 취업 포트폴리오</title><style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#192c43;background:#f4f6fa;font:16px/1.6 'Malgun Gothic',sans-serif}header{background:#fff;padding:24px max(20px,calc((100vw - 1040px)/2));border-bottom:1px solid #d5deea}header p{font-size:13px;margin:0;color:#566c85}h1{font-size:34px;letter-spacing:-1px;margin:6px 0}h2{font-size:25px;margin:0 0 20px}h3{font-size:17px;margin:24px 0 10px}nav{position:sticky;top:0;z-index:3;display:flex;gap:8px;padding:10px;justify-content:center;background:#fff;border-bottom:1px solid #d5deea;overflow:auto}button,a.btn{font:inherit;border:1px solid #b1c1d7;background:#fff;color:#192c43;border-radius:7px;padding:9px 14px;cursor:pointer;white-space:nowrap;text-decoration:none}button:hover{background:#f1f5fc}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e0ae30;outline-offset:2px}.primary{background:#2356a8!important;color:white!important;border-color:#2356a8!important}main{max-width:1040px;margin:22px auto;padding:0 16px 100px}section{background:white;border:1px solid #d5deea;border-radius:10px;margin-bottom:22px;padding:28px;scroll-margin-top:80px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}label{display:block;font-weight:700;margin:15px 0 6px}input,select,textarea{width:100%;padding:10px;border:1px solid #b6c5d8;border-radius:6px;font:inherit;color:inherit;background:#fff}textarea{min-height:100px;resize:vertical}.picks{display:flex;gap:8px;flex-wrap:wrap}.picks button[aria-pressed=true]{background:#e8effc;border-color:#2356a8;box-shadow:inset 0 0 0 1px #2356a8}.picks button[aria-pressed=true]:before{content:'✓ ';color:#2356a8}.hint,small{font-size:13px;color:#596d86}.hint{margin:8px 0 16px}.tools{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.notice{border-left:3px solid #e5b83d;padding:9px 14px;margin:15px 0;background:#fffbef;font-size:14px}details{margin:16px 0}summary{cursor:pointer;font-size:14px}.prompt{white-space:pre-wrap;background:#f4f6fa;border:1px solid #d5deea;padding:15px;font-size:14px;max-height:280px;overflow:auto}.bar{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;gap:10px;padding:10px;background:white;border-top:1px solid #d5deea;z-index:4}.status{font-size:13px;color:#2a654d}article{border-bottom:1px solid #d5deea;padding:14px 0}article p{white-space:pre-wrap;overflow-wrap:anywhere;margin:5px 0 0}.check{display:flex;gap:9px;align-items:center;font-size:14px;font-weight:400}.check input{width:auto}.rating{display:flex;gap:10px;flex-wrap:wrap}.rating label{margin:0;font-weight:400}.step{font-size:13px;color:#526a8c;margin-bottom:8px}.empty{color:#7b8799}.report-text{min-height:180px}@media(max-width:650px){header{padding:20px}h1{font-size:29px}main{padding:0 10px 100px}.grid{grid-template-columns:1fr}.levels{grid-template-columns:1fr 1fr}section{padding:22px 16px}nav{justify-content:flex-start}nav button,.bar button{font-size:13px;padding:9px 11px}.picks button{font-size:14px}h2{font-size:23px}}@media print{body{background:white}header,nav,.bar,section:not(#portfolio),.no-print{display:none!important}main{padding:0;margin:0;max-width:none}#portfolio{border:0;padding:0}article{break-inside:avoid}}
+main > section[hidden]{display:none!important}
+body{font-family:'Pretendard','Malgun Gothic',sans-serif;color:#1f2433;font-size:18px;background:#f5f6fa;word-break:keep-all}
+header{padding-top:18px;padding-bottom:18px}header p{font-size:13px}h1{font-size:32px}h2{font-size:28px}h3{font-size:20px}
+section{border-color:#d2d6e2;border-radius:12px}button,a.btn{border-color:#b6bed6;font-size:17px;padding:11px 15px}.primary{background:#2443c8!important;border-color:#2443c8!important}
+input,select,textarea{font-size:18px;line-height:1.6;padding:12px}.hint,summary{font-size:15px;line-height:1.7}.picks button[aria-pressed=true]{background:#e8ecfb;border-color:#2443c8;box-shadow:inset 0 0 0 1px #2443c8}
+.prompt-preview{margin:8px 0}.prompt-preview summary{color:#51618d}.prompt-preview pre{font:15px/1.8 'Malgun Gothic',sans-serif;white-space:pre-wrap;overflow-wrap:anywhere;max-height:380px}
+#copy-feedback{position:fixed;left:50%;bottom:88px;transform:translateX(-50%);z-index:10;background:#1f2433;color:#fff;padding:12px 20px;border-radius:8px;font-size:16px;max-width:90vw;box-shadow:0 6px 20px #0002}
+#copy-manual{width:min(700px,92vw);padding:24px;border:2px solid #1f2433;border-radius:12px}#copy-manual::backdrop{background:#0008}
+#career-prompts button{white-space:normal}.strength-group{margin:0 0 14px}.group-title{margin:0 0 6px;font-size:15px;font-weight:700;color:#51618d}
+@media(max-width:650px){body{font-size:17px}h2{font-size:26px}label{font-size:17px}button,a.btn,.picks button{font-size:16px}.tools button{white-space:normal}nav button{font-size:14px;white-space:nowrap}.bar button{font-size:15px}.prompt-preview summary{font-size:14px}#copy-feedback{bottom:88px;white-space:nowrap}}
+@media print{#copy-feedback,#copy-manual,.prompt-preview{display:none!important}}
+</style></head><body>
+<header><p>한국가이던스 · 대구한의대학교 프로그램 참여자 대상</p><h1>나의 취업 포트폴리오</h1><div class="tools"><a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT 열기</a><button id="reset">기록 지우기</button><span id="status" class="status" role="status"></span></div></header>
+<nav aria-label="활동 이동"></nav><main>
+<section><h2>오늘 시작할 취업 포트폴리오</h2><p>학교생활과 일상에서 해 온 일을 AI 인터뷰로 찾아봅니다. 관심 공고에 맞춰 자소서·면접에서 설명할 경험을 고르고, 앞으로 쌓을 경험도 정해 보세요.</p><details><summary>프롬프트란?</summary><p>AI에게 보내는 요청입니다. 할 일, 내 상황과 자료, 지킬 조건, 원하는 결과를 알려 주세요. 첫 답변을 확인한 뒤 빠진 조건을 보태고 다시 요청할 수 있습니다.</p></details></section>
+<section id="step-1"><div class="step">01</div><h2>내 검사 결과</h2><div class="grid"><div><label for="major">전공</label><select id="major" data-field></select></div><div><label for="job">관심 직무</label><select id="job" data-field></select></div></div><label for="type">취업준비유형</label><select id="type" data-field></select><details><summary>요인별 수준 입력</summary><div id="levels" class="levels"></div></details><h3>활용할 강점 2개</h3><p class="hint">검사 결과를 보며 나에게 해당하는 강점을 고르세요. 결과지에서 높게 나온 요인이나, 주변에서 자주 들은 장점을 떠올리면 쉽습니다.</p><div id="strengths"></div><label class="check"><input id="reliability" type="checkbox">결과지의 응답신뢰도를 확인했습니다.</label></section>
+<section id="work-values"><div class="step">02</div><h2>중요하게 보는 직업가치</h2><p class="hint">5개를 고르세요.</p><div id="values" class="picks"></div><p id="value-status" class="hint" role="status"></p><label for="priority">그중 가장 중요한 것</label><select id="priority" data-field></select></section>
+<section id="mission-job"><div class="step">03</div><h2>채용공고 읽기</h2><div class="grid"><div><label for="company">회사·직무명</label><input id="company" data-field placeholder="공고에 적힌 이름"></div><div><label for="source">공고 주소</label><input id="source" data-field placeholder="https://"></div></div><label for="posting">공고 본문 붙여넣기</label><textarea id="posting" data-field placeholder="담당업무·필수조건·우대사항"></textarea><div class="tools"><button data-copy="posting">공고 분석 요청 복사</button></div><label for="quote">공고에서 찾은 문구 한 개</label><input id="quote" data-field maxlength="150" placeholder="예: 엑셀 활용 가능자 우대"><label for="mode">오늘 사용한 방식</label><select id="mode" data-field></select></section>
+<section id="mission-experience"><div class="step">04</div><h2>경험인터뷰</h2><label for="context">어떤 경험부터 이야기할까요?</label><select id="context" data-field></select><div class="tools" style="margin-top:16px"><button class="primary" data-copy="experience">경험인터뷰 시작 · 복사</button><button data-copy="recall">경험이 안 떠오를 때 · 복사</button><button data-copy="summary">인터뷰 결과 정리 · 복사</button></div><p class="hint">ChatGPT에 붙여 넣고 질문에 답하세요.</p><label for="experience">인터뷰에서 찾은 내 행동 한 문장</label><input id="experience" data-field maxlength="180" placeholder="AI가 정리한 내용 중 내가 직접 한 일을 옮겨 적으세요."><h3>오늘 해 본 일</h3><div id="actions" class="picks"></div><h3>AI 답변에서 확인한 것</h3><div id="issues" class="picks"></div><label for="basis">확인할 때 본 자료</label><select id="basis" data-field></select><div class="tools" style="margin-top:16px"><button data-copy="correction">수정 요청 복사</button></div><details><summary>AI 답변 붙여넣기 · 선택</summary><label for="interviewSummary">인터뷰 결과</label><textarea id="interviewSummary" data-field></textarea><label for="aiFirst">처음 답변</label><textarea id="aiFirst" data-field></textarea><label for="correction">수정한 답변</label><textarea id="correction" data-field></textarea></details></section>
+<section id="mission-plan"><div class="step">05</div><h2>다음에 할 일</h2><label for="next">하나만 고르세요.</label><select id="next" data-field></select><div class="grid"><div><label for="minutes">쓸 수 있는 시간</label><select id="minutes" data-field></select></div><div><label for="review">점검일</label><input type="date" id="review" data-field></div></div><label for="after">지금 혼자 할 수 있는 것은?</label><select id="after" data-field></select></section>
+<section id="portfolio"><div class="step">06</div><h2>나의 취업 포트폴리오</h2><div class="tools no-print"><button id="draft" class="primary">선택한 내용으로 초안 만들기</button><button data-copy="portfolio">AI에게 문장 다듬기 요청</button></div><p id="missing" class="hint no-print" role="status"></p><div id="report"></div><details class="no-print"><summary>문장 직접 수정하기 · 선택</summary><label for="story">경험 기록</label><textarea class="report-text" id="story" data-field></textarea><label for="interview">면접 답변</label><textarea id="interview" data-field></textarea></details><div class="tools no-print" style="margin-top:20px"><button id="report-copy">내용 복사</button><button id="print">인쇄·PDF 저장</button></div><details id="legacy" class="no-print" hidden><summary>이전에 작성한 내용</summary><pre id="legacy-text" class="prompt"></pre></details></section>
+<section id="step-3"><div class="step">07</div><h2>마지막 · 나의 AI 취업코치 설정</h2><div class="tools"><button class="primary" data-copy="coach">프롬프트 복사</button><a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT 열기</a></div><p class="hint">복사한 글을 ChatGPT 새 대화에 붙여 넣으세요.</p><details><summary>프롬프트 보기</summary><pre id="coach-prompt" class="prompt"></pre></details><details><summary>무료 계정으로 할 때</summary><p class="hint">텍스트 대화로 진행하면 됩니다. 공고를 파일로 올리지 말고 본문을 붙여 넣으세요. 사용 한도에 걸리면 강사 시연을 보며 계속할 수 있습니다.</p></details></section>
+</main><div class="bar"><button id="save" class="primary">내 기록 HTML 저장</button><button id="preview">포트폴리오 보기</button></div><script id="saved-data" type="application/json">{}</script><script>
+(()=>{'use strict';const $=id=>document.getElementById(id),KEY='dhu-cpi-portfolio-20261111';let state={};const seed=JSON.parse($('saved-data').textContent);try{state=Object.keys(seed).length?seed:JSON.parse(localStorage.getItem(KEY)||'{}')}catch{}
+if(state.version!==2&&Object.keys(state).length){const old={...state};state.legacy=old;state.strengths=typeof old.strengths==='string'?[]:old.strengths||[];}state.version=2;
+const factors=['자기이해','직업이해','진로결정','정보탐색','취업준비','구직행동','진로탄력성','구직효능감','취업불안'];
+const strengthGroups=[['일하는 태도',['성실함','책임감','꼼꼼함','끈기','계획성','시간 관리','자기관리','정직함']],['사람과의 관계',['소통 능력','경청','배려','공감 능력','협동심','친화력','리더십','설명하는 능력']],['생각하는 힘',['분석력','문제해결력','창의성','호기심','판단력','정보 수집력']],['도전과 변화',['도전정신','실행력','적응력','긍정적 태도','회복력','배우려는 자세']]];const strengthList=strengthGroups.flatMap(([,l])=>l);
+const values=['자기개발','사회적 기여','자율성','다양성','도전성','성취','소속감','흥미','높은 보상','권력','사회적 인정','일·생활 균형','안정성','쾌적한 환경'];
+const actions=['공고를 읽었다','AI에 질문했다','공고와 AI 답변을 비교했다','AI 답변을 수정했다','내 경험을 정리했다','면접 답변을 연습했다'];
+const issues=['공고에 없는 조건','내가 하지 않은 경험','과장된 표현','공고를 잘못 읽은 부분','수정할 부분을 찾지 못함'];
+const choices={major:['경영·경제','컴퓨터·소프트웨어','기계·자동차','전기·전자','건축·토목','화학·환경','디자인·미디어','간호·보건','사회복지·상담','교육','관광·호텔','체육','인문·어학','기타'],job:['아직 탐색 중','경영·사무','회계·재무','마케팅·영업','개발·IT','설계·생산·품질','연구개발','디자인·콘텐츠','보건·의료','복지·교육','공공·행정','서비스·관광','기타'],type:['이상추구형','적응적 진로준비형','성장기대형','탐색적 행동가형'],context:['수업·과제','조별과제','아르바이트','동아리·행사','친구·가족을 도운 일','일상생활','이번 CPI·AI 수업','아직 떠오르지 않음'],mode:['본인 ChatGPT 사용','다른 AI 사용','강사 시연 확인','AI 없이 직접 작성'],basis:['채용공고 원문','내 실제 경험','기업·기관 공식자료','강사 설명','아직 확인하지 못함'],next:['다음 수업·과제에서 내 역할과 결과물 기록하기','동아리·현장실습에서 관심 직무 경험 쌓기','관심 공고 1개에서 요구역량 3개 찾기','공고 원문과 AI 답변 1개 비교하기','내 경험 1개를 3문장으로 정리하기','자기소개서 1문항 고치기','면접 답변 1개 연습하기','학교 취업상담 신청하기'],minutes:['20분','30분','60분'],after:['AI에 질문할 수 있다','공고와 AI 답변을 비교할 수 있다','틀린 부분을 찾아 수정할 수 있다','아직 도움이 필요하다']};
+function options(el,list,placeholder='선택하세요'){const current=state[el.id]||'';el.replaceChildren(new Option(placeholder,''));if(current&&!list.includes(current))list=[current,...list];list.forEach(v=>el.append(new Option(v,v)));el.value=current;}
+Object.entries(choices).forEach(([id,list])=>options($(id),list));$('levels').replaceChildren();factors.forEach((name,i)=>{const wrap=document.createElement('div'),label=document.createElement('label'),select=document.createElement('select');select.id='level-'+i;select.dataset.field='';label.htmlFor=select.id;label.textContent=name;options(select,['높음','보통','낮음'],'결과지 확인');wrap.append(label,select);$('levels').append(wrap)});
+const fields=[...document.querySelectorAll('[data-field]')];fields.forEach(el=>{el.value=state[el.id]||'';el.oninput=el.onchange=()=>{state[el.id]=el.value;persist()}});$('reliability').checked=!!state.reliability;$('reliability').onchange=()=>{state.reliability=$('reliability').checked;persist()};
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(state));$('status').textContent='저장됨'}catch{$('status').textContent='HTML로 저장하세요.'}render()}
+function picks(id,list,max){state[id]=Array.isArray(state[id])?state[id].filter(v=>list.includes(v)).slice(0,max):[];$(id).replaceChildren();list.forEach(v=>{const b=document.createElement('button');b.textContent=v;b.setAttribute('aria-pressed',state[id].includes(v));b.onclick=()=>{if(state[id].includes(v))state[id]=state[id].filter(x=>x!==v);else if(state[id].length<max){if(id==='issues'){if(v==='수정할 부분을 찾지 못함')state[id]=[];else state[id]=state[id].filter(x=>x!=='수정할 부분을 찾지 못함')}state[id].push(v)}else{$('status').textContent=max+'개까지 선택하세요.';return}$(id).querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',state[id].includes(x.textContent)));if(id==='values')priority();persist()};$(id).append(b)})}
+function priority(){if(!state.values?.includes(state.priority))state.priority='';options($('priority'),state.values||[],'가치 5개 중 선택')}
+picks('strengths',strengthList,2);{const box=$('strengths'),btns=[...box.children];box.replaceChildren();strengthGroups.forEach(([title,list])=>{const g=document.createElement('div');g.className='strength-group';const h=document.createElement('p');h.className='group-title';h.textContent=title;const row=document.createElement('div');row.className='picks';btns.filter(b=>list.includes(b.textContent)).forEach(b=>row.append(b));g.append(h,row);box.append(g)})}picks('values',values,5);picks('actions',actions,6);picks('issues',issues,5);priority();
+const navs=[['step-1','검사 결과'],['work-values','직업가치'],['mission-job','공고'],['mission-experience','경험인터뷰'],['mission-plan','다음 할 일'],['portfolio','포트폴리오'],['step-3','코치 설정']];let guided=false;
+function navigate(id){
+ const target=$(id);
+ if(!target)return;
+ if(guided){
+  document.querySelectorAll('main > section').forEach(section=>section.hidden=section!==target);
+  document.querySelectorAll('nav button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.stage===id)));
+  window.scrollTo(0,0);
+ }else target.scrollIntoView();
+}
+window.KG_CPI_showStage=id=>{guided=true;navigate(id)};
+document.querySelector('nav').replaceChildren();navs.forEach(([id,label])=>{const b=document.createElement('button');b.textContent=label;b.dataset.stage=id;b.onclick=()=>navigate(id);document.querySelector('nav').append(b)});
+const v=id=>{const value=state[id];return(Array.isArray(value)?value.join(', '):value?.trim())||'[미입력]'};
+function levels(){return factors.map((f,i)=>f+' '+v('level-'+i)).join(' / ')}
+const common=()=>`너는 대학생의 취업 준비를 돕는 개인 코치다. 한 번에 질문은 1개만 하고 내 답을 기다려. 답변은 500자 이내.\n전공: ${v('major')} / 관심 직무: ${v('job')}\nCPI 유형: ${v('type')}\n요인별 수준: ${levels()}\n활용할 강점: ${v('strengths')}\n중요 가치: ${v('values')} / 가장 중요한 것: ${v('priority')}\n내 정보와 실제 공고에만 근거해. 없는 조건이나 경험은 만들지 말고 물어봐. CPI는 현재 준비 상태를 이해하는 참고자료로만 써. 내가 고른 강점은 내가 스스로 선택한 것이니, 실제 경험으로 확인하는 질문을 해. 강점을 단정하거나 과장하지 마. 과제는 20~60분 단위로, 마감과 완료기준을 함께 써 줘.`;
+const prompts={coach:common,posting:()=>`[공고 분석]\n회사·직무: ${v('company')}\n출처: ${v('source')}\n본문:\n${v('posting')}\n담당업무·필수조건·우대사항을 표로 정리해. 각 항목에 공고의 근거 문구를 짧게 붙여 줘. 없는 정보는 확인 필요로 표시해. 내 강점 ${v('strengths')}과 연결하려면 어떤 경험이 필요한지 한 번에 하나씩 물어봐. 원문을 읽을 수 없으면 본문을 요청해.`,correction:()=>`내가 확인한 부분: ${v('issues')}\n확인한 자료: ${v('basis')}\n원문에서 찾은 문구: ${v('quote')}\n이 내용과 내가 실제로 말한 경험만 사용해서 앞의 답변을 고쳐 줘. 자료가 부족하면 한 번에 하나씩 질문해.`,experience:()=>`관심 직무: ${v('job')}\n오늘 한 일: ${v('actions')}\n실제로 한 일: ${v('experience')}\n이 활동에서 내 역할·행동·결과를 확인하는 질문을 한 번에 하나씩 해 줘. 내가 답하지 않은 경험이나 수치는 만들지 마. 답이 모이면 면접에서 말할 수 있게 3문장으로 정리해 줘.`,portfolio:()=>`아래 기록만 사용해서 취업 포트폴리오의 경험 설명을 3~5문장으로 다듬어 줘. 하지 않은 일이나 성과는 만들지 마. 수업 경험은 수업 경험으로 써 줘. 빠진 정보는 질문해.\n참여 방식: ${v('mode')}\n오늘 한 일: ${v('actions')}\n실제로 한 일: ${v('experience')}\n확인한 부분: ${v('issues')}\n근거 자료: ${v('basis')} / 원문 문구: ${v('quote')}\n다음 할 일: ${v('next')}\n기록 초안: ${v('story')}`};
+prompts.experience=()=>`너는 대학생의 경험을 찾아주는 취업 인터뷰어다. 학생에게 경험 글을 써 오라고 하지 말고, 네가 구체적인 질문으로 인터뷰를 이끌어라. 학생에게는 자연스러운 존댓말을 써라. 막연한 칭찬이나 거창한 표현은 하지 마라.
+
+[학생 정보]
+이야기할 경험: ${v('context')}
+전공·관심 직무: ${v('major')} / ${v('job')}
+관심 공고: ${v('company')}
+내가 고른 강점: ${v('strengths')}
+이미 적은 행동이 있다면: ${v('experience')}
+
+[인터뷰 진행]
+1. 한 번에 질문은 딱 1개만 하고 학생의 답을 기다려라. 질문 목록을 한꺼번에 제시하지 마라. 매 답변은 400자 이내로, 학생이 말한 내용을 한 줄로 짚고 다음 질문 하나를 이어라.
+2. “기억에 남는 경험을 말해 보세요”처럼 넓게 묻지 마라. 선택한 경험에서 누군가에게 설명하기, 빠진 내용 확인하기, 자료 정리하기, 일정 맞추기, 실수 고치기 등 한 장면부터 떠올리게 물어라.
+3. 학생이 “별거 없어요”, “당연히 한 건데요”, “자료만 정리했어요”라고 해도 인터뷰를 끝내지 마라. 예를 들어 자료 정리라면 어떤 자료였는지, 무엇을 기준으로 정리했는지, 빠지거나 겹친 내용은 어떻게 확인했는지 중 아직 모르는 것 하나를 물어라. 예시를 학생이 실제로 한 일로 바꾸어 쓰지 마라.
+4. 잘 떠오르지 않으면 관련 장면을 2~3개 제시하고 그중 해 본 일이 있는지 하나만 물어라. 해당 없다고 답하면 다른 장면으로 바꿔라. 모든 경험에서 억지로 강점을 찾아야 하는 것은 아니다.
+5. 전체 인터뷰는 6~8번의 질문 안에서 진행해라. 상황, 학생이 맡은 부분, 직접 한 행동, 그때 신경 쓴 기준, 실제로 확인된 결과를 차례로 확인하되 이미 답한 것은 다시 묻지 마라. 팀이 한 일과 학생 본인이 한 일을 구분해라.
+6. 행동이 드러나면 그 행동이 지원 직무에서 어떻게 쓰일 수 있는지 짧게 설명해라. “꼼꼼하다”로 끝내지 말고 “중복 자료를 확인한 행동은 업무 자료를 정확히 관리한 사례로 설명할 수 있다”처럼 학생이 말한 사실을 근거로 연결해라. 직무가 미정이면 일반적인 업무와의 연결까지만 제안해라.
+7. 경험을 크게 보이게 만들려고 리더십·전문성·매출·효율 수치·수상 실적을 붙이지 마라. 결과를 모르면 “결과는 추가 확인”으로 남겨라. CPI 유형이나 점수로 역량을 단정하지 마라.
+8. 마지막에는 확인된 사실만으로 경험 설명 3문장을 제안하고, 사실과 다른 부분이 있는지 질문 하나로 확인해라. 처음부터 STAR나 포트폴리오 항목을 학생에게 채우라고 요구하지 마라.
+
+지금은 설명을 길게 하지 말고, 선택한 경험에서 실제 장면을 떠올릴 수 있는 첫 질문 하나부터 해라.`;
+prompts.recall=()=>`아직 경험이 잘 떠오르지 않아. 내가 선택한 분야는 ${v('context')}야. 수업·아르바이트·일상에서 자료를 확인하거나 누군가를 돕거나 작은 문제를 처리했던 장면을 2~3개만 예로 들고, 내가 해 본 일이 있는지 질문 하나만 해 줘. 내가 답하면 내 행동을 찾는 질문을 하나씩 이어 가 줘. 예시를 내 경험으로 단정하지 마.`;
+prompts.summary=()=>`지금까지 내가 실제로 답한 내용만 사용해서 인터뷰 결과를 정리해 줘. ① 내가 맡은 일 ② 직접 한 행동 ③ 확인된 결과 ④ ${v('job')} 직무에서 설명할 수 있는 점을 짧게 써 줘. 그다음 면접에서 말할 3문장을 제안해 줘. 모르는 결과나 수치는 만들지 말고 확인 필요로 남겨. 아직 내 경험을 듣지 않았다면 요약하지 말고 첫 질문 하나부터 해 줘.`;
+const basePortfolio=prompts.portfolio;prompts.portfolio=()=>basePortfolio()+`\n학생이 붙여 넣은 인터뷰 결과: ${v('interviewSummary')}\n위 결과에서도 실제로 확인된 행동과 학생 본인의 역할만 사용해.`;
+async function copy(t){try{await navigator.clipboard.writeText(t);$('status').textContent='복사했습니다.'}catch{const a=document.createElement('textarea');a.value=t;document.body.append(a);a.select();const ok=document.execCommand('copy');a.remove();$('status').textContent=ok?'복사했습니다.':'글을 선택해서 복사하세요.'}}
+const basePosting=prompts.posting;prompts.posting=()=>basePosting()+`\n이 대화에 붙인 공고 캡처가 있다면 함께 읽어 줘. 링크가 열리지 않거나 글씨가 안 보이면 추측하지 말고 본문을 요청해. 공고의 요구역량과 내 경험을 대조해 이미 설명할 수 있는 경험, 더 확인할 경험, 앞으로 학교생활에서 쌓을 경험으로 나눠 줘. 자소서나 면접에 쓸 소재를 제안하되 실제로 말하지 않은 경험은 만들지 마.`;
+prompts.future=()=>`관심 직무: ${v('job')} / 공고 요구 문구: ${v('quote')} / 지금 찾은 경험: ${v('experience')}\n내가 답한 사실을 기준으로 이 공고의 자소서·면접에 쓸 수 있는 경험과 근거가 부족한 역량을 구분해 줘. 부족한 부분은 앞으로 수업·조별과제·동아리·현장실습 중 어디에서 경험할 수 있을지 2~3개 제안하고 내가 참여할 수 있는 활동을 질문 하나로 확인해 줘. 활동을 정하면 내 역할·남길 결과물·피드백과 수정 기록을 어떻게 모을지 짧게 알려 줘. 이번 CPI·AI 수업도 실제로 해 본 요청·확인·수정만 경험으로 다뤄 줘.`;
+$('job-help')?.remove();const jobHelp=document.createElement('p');jobHelp.id='job-help';jobHelp.className='hint';jobHelp.textContent='공고는 링크나 캡처로 가져오세요. 캡처는 ChatGPT 대화에 붙이고, 여기에는 주소나 필요한 본문을 남깁니다. 이미지를 올릴 수 없으면 본문을 복사하세요.';$('posting').before(jobHelp);
+$('future-copy')?.remove();const futureButton=document.createElement('button');futureButton.id='future-copy';futureButton.textContent='공고·경험 연결과 다음 활동 요청 복사';futureButton.onclick=()=>copy(prompts.future());$('mission-plan').append(futureButton);
+/* Runs inside the student page's closure. No AI requests or shared state. */
+prompts.coach=()=>common()+`
+오늘 살펴본 공고: ${v('company')} / ${v('source')}
+공고에서 확인한 문구: ${v('quote')}
+내가 실제로 한 경험: ${v('experience')}
+포트폴리오에 남긴 기록: ${v('story')}
+내가 선택한 다음 할 일: ${v('next')}
+진행 방법:
+1. 대학생에게 자연스러운 존댓말을 쓰고, 막연한 칭찬·구호·긴 서론은 생략해.
+2. 한 번에 질문 하나만 하고 답을 기다려. 답변에서 확인한 사실 한 줄과 다음 질문만 제시해. 학생이 이미 답한 내용은 다시 묻지 마.
+3. CPI는 현재 취업 준비를 살펴보는 참고자료야. 점수나 유형으로 성격·능력·적합 직업을 단정하지 마. 미입력 항목은 추측하지 마.
+4. 내가 고른 강점(${v('strengths')})이 실제로 드러난 경험이 있는지 확인해. 경험 없이 강점만으로 나를 평가하지 마.
+5. 학생의 선택과 발언, 제공한 공고만 사용해. 학생이 실제로 하지 않은 경험, 성과 수치, 자격증은 만들지 마.
+6. 공고가 있으면 담당업무와 요구역량을 먼저 읽고 경험인터뷰로 연결해. 없으면 수업·조별과제·아르바이트 중 구체적인 장면 하나를 고르게 해.
+7. 포트폴리오는 이번 한 번에 완성하는 평가 과제가 아니야. 과거 경험을 찾고, 앞으로 학교생활에서 쌓을 경험과 남길 자료를 정하는 데 도움을 줘.
+내가 고른 다음 할 일이 있다면 실행을 돕는 질문을, 아직 없다면 무엇부터 준비할지 정하는 질문을 하나만 해 줘.`;
+prompts.posting=()=>`[채용공고 분석]
+회사·직무: ${v('company')}
+관심 직무: ${v('job')} / 출처: ${v('source')}
+공고 본문:
+${v('posting')}
+
+위 본문과 이 대화에 첨부한 공고 캡처·링크를 읽어 줘.
+1. 링크를 열 수 없거나 캡처의 글씨가 안 보이면 본문을 요청해. 다른 공고나 일반적인 채용 조건으로 빈칸을 채우지 마.
+2. 담당업무 / 필수조건 / 우대사항 / 지원 시 제출물을 나눠 표로 정리해. 각 항목에 원문 근거를 짧게 붙이고, 없는 정보는 '공고에 없음'으로 표시해.
+3. 요구역량을 최대 3개 고르고, 각각 어떤 행동이나 결과물로 설명할 수 있을지 제안해. 이 예시를 내가 한 일로 단정하지 마.
+4. 이미 말한 내 경험이 있으면 '연결 가능 / 추가 확인 / 앞으로 쌓을 경험'으로 구분해. 연결 근거를 한 줄씩 써 줘.
+5. 공고의 내용을 먼저 정리한 뒤, 나에게 요구역량 하나와 관련된 실제 경험이 있는지 질문 하나만 해 줘. 질문 목록을 한꺼번에 주지 마.`;
+prompts.resume=()=>`[자기소개서 소재 고르기]
+관심 직무: ${v('job')} / 회사·직무명: ${v('company')}
+공고 요구 문구: ${v('quote')}
+내가 직접 한 행동: ${v('experience')}
+인터뷰 결과: ${v('interviewSummary')}
+기록 초안: ${v('story')}
+
+위 기록과 앞의 실제 답변만 써 줘.
+1. 먼저 지원할 자소서 문항과 글자 수가 있는지 질문 하나로 확인하고 내 답을 기다려.
+2. 문항을 받으면 어떤 경험을 사용할지, 그 이유와 공고의 연결 근거를 짧게 제안해.
+3. 내가 맡은 일 / 직접 한 행동 / 확인된 결과를 구분해. 팀 성과를 개인 성과로 바꾸지 마. 모르는 수치·결과는 만들지 말고 필요한 사실 하나만 질문해.
+4. 사실이 모이면 문항에 맞는 초안을 써 줘. '열정적인 인재', '탁월한 역량', '성장하겠습니다' 같은 추상적인 문구보다 내가 한 행동을 써 줘.
+5. 마지막에 내가 확인해야 할 사실과 추가할 수 있는 증거 자료를 2개 이내로 제시해. 수업 실습 경험은 실제 업무 경력으로 쓰지 마.`;
+prompts.interview=()=>`[경험 기반 면접 연습]
+관심 직무: ${v('job')} / 회사·직무명: ${v('company')}
+공고 요구 문구: ${v('quote')}
+내 행동: ${v('experience')}
+인터뷰 결과: ${v('interviewSummary')}
+
+너는 이 공고의 면접관이야. 내 실제 경험을 확인하는 질문 하나부터 해 줘.
+내가 답하기 전에는 모범답안을 제시하지 마. 답을 들으면 ① 구체적으로 드러난 행동 ② 모호하거나 근거가 부족한 부분 ③ 고칠 점 하나를 각각 짧게 알려 줘. 그다음 내 역할·판단 기준·어려움·결과 중 아직 모르는 것을 꼬리질문 하나로 물어봐.
+질문은 3~4번 안에서 진행해. 없는 경험을 보충하지 마. 답이 없으면 관련된 작은 경험을 떠올리게 하는 구체적인 질문으로 바꿔 줘.
+마지막에는 내 답을 바탕으로 40~60초 분량의 답변을 제안하고 실제 사실과 다른 부분이 있는지 확인해 줘.`;
+const oldCorrection=prompts.correction;prompts.correction=()=>oldCorrection()+`
+수정 전 표현 / 확인한 원문 또는 내 실제 발언 / 수정한 표현을 짧게 비교해 줘. 확실하지 않은 것은 확인 필요로 남겨. 공고 조건을 새로 만들거나 경험을 더 크게 포장하지 마. 끝에 내가 직접 확인할 것 한 가지만 알려 줘.`;
+prompts.lost=()=>`대화가 길어져서 지금 정보를 다시 정리할게.
+전공: ${v('major')} / 관심 직무: ${v('job')}
+CPI 유형: ${v('type')} / 활용할 강점: ${v('strengths')}
+공고: ${v('company')} / ${v('source')}
+공고 근거 문구: ${v('quote')}
+내 행동: ${v('experience')}
+인터뷰 결과: ${v('interviewSummary')}
+이 정보와 내가 실제로 답한 사실만 사용해. 지금 어디까지 진행했는지 한 줄로 확인하고, 공고 분석·경험 찾기·자소서·면접 중 다음에 할 것 하나를 물어봐. 한 번에 질문은 하나만 해 줘.`;
+const extraButtons=[['resume','자소서 소재 찾기 · 복사'],['interview','면접 연습 · 복사']];
+$('career-prompts')?.remove();const career=document.createElement('div');career.id='career-prompts';career.className='tools no-print';career.style.marginTop='16px';extraButtons.forEach(([key,label])=>{const b=document.createElement('button');b.dataset.copy=key;b.textContent=label;career.append(b)});$('portfolio').append(career);
+$('prompt-recovery')?.remove();const recovery=document.createElement('details');recovery.id='prompt-recovery';const rs=document.createElement('summary');rs.textContent='대화가 끊기거나 처음부터 다시 할 때';const rb=document.createElement('button');rb.dataset.copy='lost';rb.textContent='내 정보 다시 전달 · 복사';recovery.append(rs,rb);$('step-3').append(recovery);
+const descriptions={coach:'검사 결과와 공고·경험·다음 할 일을 모아 나의 취업코치를 설정합니다.',posting:'공고의 근거 문구를 확인하고 내 경험과 연결합니다.',experience:'AI가 하나씩 질문하며 내가 직접 한 행동을 찾습니다.',recall:'구체적인 장면을 보며 작은 경험부터 떠올립니다.',summary:'인터뷰에서 확인된 사실로 역할·행동·결과를 정리합니다.',correction:'원문과 다른 조건, 없던 경험, 과장된 표현을 고칩니다.',portfolio:'기록한 사실로 경험 설명을 다듬습니다.',resume:'지원할 문항을 확인하고 내 경험으로 자소서 소재를 찾습니다.',interview:'내 답을 기다렸다가 꼬리질문과 피드백을 줍니다.',lost:'기록한 정보를 다시 전달하고 하던 단계를 이어갑니다.'};
+document.querySelectorAll('[data-prompt-preview]').forEach(e=>e.remove());
+document.querySelectorAll('[data-copy]').forEach(b=>{
+ const key=b.dataset.copy;if(!descriptions[key])return;
+ const d=document.createElement('details');d.dataset.promptPreview=key;d.className='prompt-preview';const s=document.createElement('summary');s.textContent=b.textContent.replace(/ · 복사| 복사/g,'')+' · 내용 보기';const hint=document.createElement('p');hint.className='hint';hint.textContent=descriptions[key];const pre=document.createElement('pre');pre.className='prompt';d.append(s,hint,pre);d.ontoggle=()=>{if(d.open)pre.textContent=prompts[key]()};b.parentElement.after(d)
+});
+$('copy-feedback')?.remove();const feedback=document.createElement('div');feedback.id='copy-feedback';feedback.hidden=true;feedback.setAttribute('role','status');feedback.setAttribute('aria-live','polite');document.body.append(feedback);let feedbackTimer;
+const originalCopy=copy;copy=async text=>{
+ await originalCopy(text);feedback.hidden=false;feedback.textContent=$('status').textContent;
+ clearTimeout(feedbackTimer);feedbackTimer=setTimeout(()=>feedback.hidden=true,2200);
+ if(!$('status').textContent.includes('복사했습니다')){
+  $('copy-manual')?.remove();const d=document.createElement('dialog');d.id='copy-manual';const p=document.createElement('p');p.textContent='아래 글을 전체 선택해 복사하세요.';const area=document.createElement('textarea');area.value=text;area.style.cssText='width:100%;height:50vh';const close=document.createElement('button');close.textContent='닫기';close.onclick=()=>d.close();d.append(p,area,close);document.body.append(d);d.showModal();area.focus();area.select()
+ }
+};
+// Generated previews and feedback are rebuilt after an exported HTML is reopened.
+$('copy-manual')?.remove();
+
+$('coach-prompt').closest('details').hidden=true;
+$('future-copy').onclick=()=>copy(prompts.future());
+
+document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copy(prompts[b.dataset.copy]()));
+function draft(){const lines=[];if(state.job)lines.push('관심 직무: '+state.job+'.');if(state.type)lines.push('CPI 취업준비유형: '+state.type+'.');if(state.mode)lines.push('활동 방식: '+state.mode+'.');if(state.actions.length)lines.push('오늘 한 일: '+state.actions.join(', ')+'.');if(state.experience)lines.push(state.experience);if(state.quote)lines.push('공고에서 확인한 문구: '+state.quote);if(state.issues.length)lines.push('확인한 부분: '+state.issues.join(', ')+'.');if(state.next)lines.push('다음 할 일: '+state.next+(state.minutes?' ('+state.minutes+')':''));return lines.join('\n')}
+$('draft').onclick=()=>{if(state.story?.trim()&&!confirm('지금 선택한 내용으로 초안을 다시 만들까요? 직접 고친 문장은 바뀝니다.'))return;state.story=draft();$('story').value=state.story;persist()};
+const rows=[['관심 직무','job'],['취업준비유형','type'],['활용할 강점','strengths'],['직업가치','values'],['가장 중요한 가치','priority'],['공고','company'],['출처','source'],['공고에서 찾은 문구','quote'],['참여 방식','mode'],['오늘 한 일','actions'],['실제로 한 일','experience'],['인터뷰 결과','interviewSummary'],['AI 답변에서 확인한 부분','issues'],['확인한 자료','basis'],['경험 기록','story'],['면접 답변','interview'],['다음 할 일','next'],['점검일','review']];
+function render(){$('coach-prompt').textContent=common();$('value-status').textContent=state.values.length+' / 5';$('report').replaceChildren();rows.filter(([,id])=>Array.isArray(state[id])?state[id].length:state[id]?.trim()).forEach(([label,id])=>{const article=document.createElement('article'),h=document.createElement('strong'),p=document.createElement('p');h.textContent=label;p.textContent=v(id);article.append(h,p);$('report').append(article)});if(!state.story)$('report').append(Object.assign(document.createElement('p'),{textContent:'선택한 뒤 초안 만들기를 누르세요.',className:'hint'}));const missing=[!state.mode?'참여 방식':'',!state.actions.length?'오늘 한 일':'',!state.experience?'실제로 한 일 한 문장':''].filter(Boolean);$('missing').textContent=missing.length?'아직 입력하지 않은 항목: '+missing.join(', '):'';if(state.legacy){$('legacy').hidden=false;$('legacy-text').textContent=Object.entries(state.legacy).filter(([,x])=>typeof x==='string'&&x.trim()).map(([k,x])=>k+': '+x).join('\n')}}
+$('preview').onclick=()=>navigate('portfolio');$('print').onclick=()=>{render();print()};$('report-copy').onclick=()=>copy('나의 취업 포트폴리오\n'+rows.filter(([,id])=>Array.isArray(state[id])?state[id].length:state[id]?.trim()).map(([label,id])=>label+'\n'+v(id)).join('\n\n'));
+$('save').onclick=()=>{const clone=document.documentElement.cloneNode(true);clone.querySelector('#saved-data').textContent=JSON.stringify(state).replace(/</g,'\\u003c');const url=URL.createObjectURL(new Blob(['<!doctype html>\n'+clone.outerHTML],{type:'text/html;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='나의_CPI_취업포트폴리오.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);$('status').textContent='저장한 파일을 다시 열어 확인하세요.'};
+$('reset').onclick=()=>{if(!confirm('이 기기의 기록을 지울까요?'))return;state={version:2,strengths:[],values:[],actions:[],issues:[]};fields.forEach(e=>e.value='');$('reliability').checked=false;['strengths','values','actions','issues'].forEach(id=>$(id).querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed','false')));$('legacy').hidden=true;$('saved-data').textContent='{}';priority();persist()};render();})();
+</script></body></html>
